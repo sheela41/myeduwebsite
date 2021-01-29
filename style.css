@@ -1,0 +1,291 @@
+*{
+    margin: 0;
+    padding:0;
+}
+html{
+    scroll-behavior: smooth;
+}
+   
+.logo{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+   
+
+}
+.logo img{
+    width:58px;
+    height:30px;
+    border: 3px solid white;
+    border-radius: 50px;
+    margin:2px 5px;
+    background-image: url('../imagess/bui4.jpg');
+
+    
+    
+}
+.navbar{
+    display: flex;
+    background-color:black;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    position: sticky;
+    top: 0;
+    
+}
+.navlist{
+    width: 45%;
+    display: flex;
+    align-items: center;
+    display:flex;
+
+    
+}
+.navlist li
+{
+    list-style: none;
+    padding: 23px 24px;
+}
+.navlist li a{
+    font-size:20px;
+    text-decoration: none;
+    color: white;
+    
+    margin:3px;
+    
+    
+}
+.rightnav{
+    width:40%;
+    text-align:right;
+    background-color:black;
+    color: white;
+    padding: 0 23px;
+    
+    
+    
+}
+#search{
+    padding: 2px 3px;
+    border:2px solid gray;
+    font-size: 17px;
+    border-radius: 9px;
+    
+    
+
+}
+.header{
+    background-image: url('../imagess/bui4.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding:10px 10px 10px 10px;
+    width: 100%;
+    height:100%
+}
+.boxmain{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-family: 'sans';
+    max-width: 50%;
+    margin: auto;
+    height: 70%;
+}
+.firstsection{
+    height: 100vh;
+}
+    
+
+
+.firsthalf{
+    width: 70%;
+    padding-top: 2%;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    margin: 2px 7px;
+    right: 20%;
+    
+    
+    
+
+}
+.secondhalf{
+    width: 20%;
+
+}
+.secondhalf img{
+    
+    
+    border:2px solid white;
+    border-radius: 350%;
+    display:block;
+    
+    
+}
+.textbig{
+    font-size: 40px;
+}
+.textsmall
+{
+    font-size: 20px;
+
+}
+.btn1{
+    padding: 9px 20px;
+    border: 4px solid white;
+    margin: 5px 0;
+    font-size: 20px;
+    border-radius: 60px;
+    background:none;
+    color: white;
+    cursor: pointer;
+
+}
+.btn2{
+    padding: 9px 20px;
+    border: 4px solid white;
+    margin: 3px 4px ;
+    font-size: 20px;
+    border-radius: 60px;
+    background:none;
+    color: white;
+    cursor: pointer;
+
+}
+.btn {
+    padding: 3px 9px;
+    font-size: 16px;
+    margin :6px 7px;
+    border:2px solid white;
+    border-radius: 9px;
+    color:black;
+    cursor: pointer;
+    direction: flex;
+    background-color: white;
+}
+.secright{
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    max-width: 95%;
+    margin:auto;
+    font-family: sans-serif;
+    
+}
+.paras{
+    padding: 10px;
+    margin:0px 5px;
+}
+.secleft{
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    max-width: 95%;
+    margin:auto;
+  font-family: sans-serif;
+  flex-direction: row-reverse;
+  padding-top: 1px;
+  height:30%;
+
+  
+}
+.sectionsubtag{
+    font-family: 'Times New Roman', Times, serif;
+    padding-top: 6px 15px;
+    margin:10px;
+}
+.secleft img{
+    margin:0px 31px;
+}
+.thumnail img{
+    border:2px solid gainsboro;
+    border-radius:  20px;
+}
+.contact{
+    background-color: gainsboro;
+    height: 60vh;
+    text-align: center;
+    
+    
+}
+
+.inputs{
+    text-align: center;
+    border:4px solid gainsboro;
+    border-radius: 50px;
+    padding:3px 20px;
+    margin-top: 25px;
+    
+    
+}
+
+#name{
+    margin:3px 5px;
+    padding:5px 30px;
+    border:3px solid gainsboro;
+    border-radius: 50px;
+    max-width: 1000px;
+
+}
+#phone{
+    
+    margin:3px 5px;
+    padding:5px 30px;
+    border:3px solid gainsboro;
+    border-radius: 50px;
+    
+
+}
+#mail{
+    margin:3px 5px;
+    padding:5px 30px;
+    border:3px solid gainsboro;
+    border-radius: 50px;
+
+
+
+}
+.contact h3{
+    font-size: 25px;
+    font-family: sans-serif;
+}
+.btndark  {
+    text-align: center;
+    border:5px solid gainsboro;
+    padding:5px 30px;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: white;
+    
+}
+.textfooter{
+    text-align: center;
+    padding:20px 0;
+    display: flex;
+    justify-content: center;
+    background-color:black;
+    color: white;
+}
+.burger{
+    position:absolute;
+    right: 5%;
+    top:19px;
+    
+
+}
+.line{
+    width:50%;
+    background-color: white;
+    height:4px;
+    margin:3px 2px;
+    padding:0px 5px;
+}
+
+
