@@ -1,0 +1,103 @@
+@media only screen and (max-width:1114px)
+{
+    .nav-list{
+        margin-right: 20px;
+    }
+    .navbar{
+        flex-direction: column;
+        transition: all 0.4s ease-out;
+        height:460px;
+    }
+    .rightnav{
+        text-align: center;
+        flex-direction: column;
+    
+    }
+    #search{
+        width:100%;
+        margin-top: 5px;
+    }
+    .burger{
+        display:block;
+    }
+    .h-class-resp{
+        height:70px;
+
+    }
+    .visi-resp{
+        opacity: 0;
+    }
+    .navlist li a{
+        align-items: center;
+        left:3px;
+        position: relative;
+        right:70px;
+        text-align: center;
+        margin:0px 70px;
+        
+        
+    }
+    .navlist{
+        flex-direction: column;
+        
+    }
+    .logo img{
+        position: relative;
+        left:3px;
+        right:90px;
+        margin:2px 50px;
+        align-items: center;
+    }
+    .btn{
+        margin:5px 8px;
+    }
+    .btn1{
+        padding: 9px 35px;
+    }
+    .boxmain{
+        flex-direction: column-reverse;
+        width:100%;
+    }
+    .secondhalf img{
+        opacity: 0;
+        display: block;
+        
+        width: 400px;
+        height:200px;
+        margin:10px 50px;
+        top:15px;
+        right:200%;
+    }
+    .firsthalf{
+        width:100%;
+    }
+    .secright{
+        flex-direction: column-reverse;
+    }
+    .secleft{
+        flex-direction: column-reverse;
+    }
+    .sectiontag{
+        text-align: center;
+        margin:5px 6px;
+        top:1%;
+
+    }
+    .sectionsubtag{
+        text-align: center;
+    }
+    .thumnail img{
+        padding: 2px ;
+        margin:5px;
+        
+    }
+    .paras{
+        padding: 0px;
+    }
+    .secleft img{
+        margin:10%;
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+}
